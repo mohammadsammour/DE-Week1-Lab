@@ -12,8 +12,9 @@ A small online shop sends daily order data as a CSV file. A manager wants a reli
 ## Local data check
 Before reporting, record at least two issues you found in the CSV and what you recommend doing with each.
 
-1. Issue and recommendation:
-2. Issue and recommendation:
+1. Issue and recommendation: There is a missing value not handled in the csv I suggest filling it with the most frequent value or dropping it 
+2. Issue and recommendation: the second issue is that there are a value of zero in the quantity and a value of zero in the total amount 
+3. Issue and recommendation: There is duplicates that must be dropped. 
 
 ## What the pipeline does
 Complete after the lab: In one sentence, describe how the data moves from the source to a useful output.
