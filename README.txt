@@ -19,5 +19,4 @@ Before reporting, record at least two issues you found in the CSV and what you r
 Raw table: de_intro.raw_orders - Rows loaded: 8 - Rows with a missing city: 1 - Rows with a non-positive quantity: 1 - Rows returned by the filtered query: 5 
 ## What the pipeline does
 Complete after the lab: In one sentence, describe how the data moves from the source to a useful output.
-
-
+We clone the data make commits then we used Big Query. A daily orders.csv file is loaded into a raw BigQuery table, then a SQL query removes rows with missing cities, non-positive quantities, and duplicate order IDs, producing a clean set of valid orders for the shop manager.
